@@ -3,3 +3,6 @@ langchain_anthropic
 tavily-python
 langchain_community
 langchain_openai
+langchain-core
+langchain-openai
+python-dotenv
