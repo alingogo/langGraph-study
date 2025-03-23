@@ -43,4 +43,5 @@ agent = create_react_agent(
 
 # エージェントの実行
 result = agent.invoke({'messages': ['3 + 4の計算結果は？']})
+# result = agent.invoke({'messages': ['面白い話を教えて']}) # output: まず、キツネが言いました。「私はとても賢いです。罠を避ける方法を知っていますし、食べ物を見つけるのも得意です。」
 print(result['messages'][-1].content) # output: 3 + 4の計算結果は9です。
